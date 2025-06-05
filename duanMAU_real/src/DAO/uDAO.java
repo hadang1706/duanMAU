@@ -17,7 +17,7 @@ import java.util.ArrayList;
  *
  * @author ADMIN
  */
-ddddd
+
 public class uDAO {
     List<SP> dsSP = new ArrayList<>();
     public Object[] getRow(SP sps) {
@@ -29,6 +29,10 @@ public class uDAO {
         Object[] obj = new Object[]{macp,tencp,uong,gia,tt};
         return obj;
     }
+    
+    public void ok(){
+
+}
     
     public List<SP> getAll(){
         String sql = "select * from caphe";
