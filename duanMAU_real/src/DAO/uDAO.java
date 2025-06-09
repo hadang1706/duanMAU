@@ -30,6 +30,10 @@ public class uDAO {
         return obj;
     }
     
+    public void hrllo(){
+        
+    }
+    
     public List<SP> getAll(){
         String sql = "select * from caphe";
         Connection conn = DBConnect.getConnection();
