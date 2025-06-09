@@ -30,6 +30,10 @@ public class uDAO {
         return obj;
     }
     
+    public void hunganhngo(){
+        
+    }
+    
     public void ok(){
 
 }
