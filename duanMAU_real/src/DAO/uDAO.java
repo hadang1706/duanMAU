@@ -30,14 +30,6 @@ public class uDAO {
         return obj;
     }
     
-    public void hunganhngo(){
-        
-    }
-    
-    public void ok(){
-
-}
-    
     public List<SP> getAll(){
         String sql = "select * from caphe";
         Connection conn = DBConnect.getConnection();
