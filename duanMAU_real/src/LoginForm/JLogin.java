@@ -61,8 +61,8 @@ public class JLogin extends javax.swing.JFrame {
             String urename = txtu.getText();
             String pass = txtp.getText();
             if(urename.equals("admin") && pass.equals("admin123")){
-                trangchu tc = new trangchu();
-                tc.setVisible(true);
+                VAOQUANLY vql = new VAOQUANLY();
+                vql.setVisible(true);
             }else if(urename.equals("nhanvien") && pass.equals("nhanvienfree")){
                 
             }
